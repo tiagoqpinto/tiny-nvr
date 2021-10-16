@@ -64,7 +64,7 @@ fi
 # remove old recordings
 if [ "$HOUSEKEEP_ENABLED" = true ]; then
     cronDailyPath="/etc/periodic/daily"
-    
+
     echo "#!/bin/sh" > "$cronDailyPath/delete-old-streams"
     echo "find $dir -type f -mtime +$HOUSEKEEP_DAYS -delete" >> "$cronDailyPath/delete-old-streams"
 
