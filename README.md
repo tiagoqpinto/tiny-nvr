@@ -17,7 +17,7 @@ docker run \
        -e HOUSEKEEP_DAYS=3 \
        -e VIDEO_SEGMENT_TIME=900 \
        -e VIDEO_FORMAT=mp4 \
-       tiagoqpinto/tiny-nvr
+       tiagoqpinto/tiny_nvr:latest
 ```
 
 ```

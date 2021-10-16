@@ -66,3 +66,5 @@ ffmpeg -rtsp_transport tcp \
     -strftime 1 \
     "$dir"/%Y-%m-%d_%H-%M-%S."$fileExtension" \
     -loglevel panic
+
+tail -f
